@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>contact us</title>
+    <link rel="icon" href="images/logos/tts_logo.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- tiptoe soles logo -->
+    <div class="row">
+        <a href="index.html">
+            <img src="images/logos/tts_logo.png" alt="tiptoe soles logo" width="144" height="144">
+        </a>
+        <img src="images/products/sally_tan.jpg" alt="tiptoe soles shoe" height="144">
+        <img src="images/products/gary_tan.jpg" alt="tiptoe soles shoe" height="144">
+    </div>
+
+     <!-- MENU BAR -->
+    <nav class="navbar">
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label">Menu</label>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="contact.html" class="active">Contact</a>
+            <a href="about.html">About</a>
+            <a href="error.html">Login</a>
+            <a href="error.html">Products</a>
+            <a href="error.html">Services</a>
+            <a href="error.html">Feedback</a>
+        </div>
+    </nav>
+
+    <!-- SEARCH BAR -->
+    <form action="/search" method="GET">
+        <input type="text" name="query" placeholder="Search...">
+        <button type="submit">Search</button>
+    </form>
+
+    <div>
+        <h2>Contact Us</h2>
+        <p> We'd love to hear from you! Whether you have a question
+            about our products, need help with an order, or just
+            want to say hello, we're here to assist.</p>
+        <h2>How to Reach Us</h2>
+        <ul>
+            <li><strong>Email:</strong> Tiptoes@tts.com.au.</li>
+            <li><strong>Phone:</strong> 1800-999-999
+                (Monday-Friday, 9am-5pm AEST).</li>
+            <li><strong>Address:</strong> Our team is based in Sydney,
+                Australia, but we primarily operate online.</li>
+        </ul>
+        <h2>Online Form</h2>
+        <p> For general inquiries, please use the form below.
+            We'll do our best to respond within 24-48 hours.</p>
+
+        <form action="[Form Submission URL - You'll need a backend to handle this]" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="subject">Subject:</label><br>
+            <input type="text" id="subject" name="subject"><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+
+        <h2>Store Locations</h2>
+        <ul>
+            <li><strong>Sydney CBD:</strong> 123 Main Street, Sydney NSW 2000.
+                Open Mon-Fri: 10am-6pm, Sat: 10am-4pm.</li>
+            <li><strong>Bondi Beach:</strong> 999 Ocean Avenue, Bondi NSW 2026.
+                Open Daily: 9am-7pm.</li>
+        </ul>
+        <h2>Follow Us</h2>
+        <p> Stay connected with us on social media for the latest updates,
+            promotions, and behind-the-scenes content!</p>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2025 TipToes Soles. All rights reserved.</p>
+        <p><a href="error.html">Privacy Policy</a> | <a href="error.html">Terms of Service</a> | <a href="error.html">Terms of Sale</a></p>
+        <p><a href="error.html">Return Policy</a> | <a href="error.html">Exchange Policy</a> | <a href="error.html">Delivery Policy</a></p>
+        <div class="social-footer">
+              <a href="https://www.facebook.com/"><img src="images/icons/facebook.png" alt="Facebook" width="30" height="30"></a>
+              <a href="https://www.instagram.com/?hl=en"><img src="images/icons/instagram.png" alt="Instagram" width="30" height="30"></a>
+              <a href="https://www.pinterest.com/"><img src="images/icons/pinterest.png" alt="Pinterest" width="30" height="30"></a>
+              <a href="https://twitter.com/?lang=en"><img src="images/icons/twitter.png" alt="Twitter" width="30" height="30"></a>
+        </div>
+        <p> Website Created by Daniel Ly </p>
+    </footer>
+
+</body>
+</html>
